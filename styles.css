@@ -369,6 +369,7 @@ ul {
 
 .flip-card {
   perspective: 1200px;
+  -webkit-perspective: 1200px;
 }
 
 .project-grid {
@@ -417,6 +418,7 @@ ul {
 .flip-card:hover .flip-inner,
 .flip-card:focus-within .flip-inner {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-front,
@@ -428,6 +430,8 @@ ul {
   border: 1px solid var(--border);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
   box-shadow: 0 12px 30px rgba(76, 29, 149, 0.08);
 }
 
@@ -437,6 +441,7 @@ ul {
   gap: 8px;
   align-content: center;
   transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
 }
 
 .flip-front h4 {
@@ -452,6 +457,7 @@ ul {
 .flip-back {
   background: linear-gradient(160deg, #fdf2f8, #efe8ff);
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .project-flip .flip-back {
