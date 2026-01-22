@@ -409,6 +409,7 @@ ul {
   width: 100%;
   min-height: 240px;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
   transition: transform 0.5s ease;
   overflow: hidden;
 }
@@ -426,6 +427,7 @@ ul {
   padding: 20px;
   border: 1px solid var(--border);
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   box-shadow: 0 12px 30px rgba(76, 29, 149, 0.08);
 }
 
@@ -434,6 +436,7 @@ ul {
   display: grid;
   gap: 8px;
   align-content: center;
+  transform: rotateY(0deg);
 }
 
 .flip-front h4 {
