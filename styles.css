@@ -211,6 +211,20 @@ main {
   margin-bottom: 32px;
 }
 
+.about-card {
+  background: linear-gradient(160deg, #ffffff, #fdf2f8);
+  border-radius: 22px;
+  padding: 22px;
+  border: 1px solid #e9d5ff;
+  box-shadow: 0 12px 30px rgba(76, 29, 149, 0.08);
+  display: grid;
+  gap: 12px;
+}
+
+.about-card p {
+  margin: 0;
+}
+
 h2 {
   margin: 0;
   font-size: clamp(24px, 3vw, 32px);
