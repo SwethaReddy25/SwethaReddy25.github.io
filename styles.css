@@ -195,20 +195,20 @@ main {
 }
 
 .section {
-  padding: 64px 0;
+  padding: 48px 0;
 }
 
 .section.muted {
   background: linear-gradient(180deg, #ffffff 0%, #faf5ff 100%);
   border-radius: 32px;
-  padding: 64px 48px;
+  padding: 48px 40px;
   box-shadow: var(--shadow);
 }
 
 .section-header {
   display: grid;
-  gap: 12px;
-  margin-bottom: 32px;
+  gap: 10px;
+  margin-bottom: 24px;
 }
 
 .about-layout {
