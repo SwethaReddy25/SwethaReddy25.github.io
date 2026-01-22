@@ -371,6 +371,39 @@ ul {
   perspective: 1200px;
 }
 
+.project-grid {
+  display: grid;
+  gap: 22px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.project-flip .flip-inner {
+  min-height: 340px;
+}
+
+.project-flip .flip-front {
+  align-content: start;
+}
+
+.project-flip .flip-front h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.project-flip .flip-back h4 {
+  margin: 0 0 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--primary-dark);
+}
+
+.project-flip .flip-back p {
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
 .flip-inner {
   position: relative;
   width: 100%;
