@@ -378,7 +378,7 @@ ul {
 }
 
 .project-flip .flip-inner {
-  min-height: 340px;
+  min-height: 420px;
 }
 
 .project-flip .flip-front {
@@ -449,6 +449,17 @@ ul {
 .flip-back {
   background: linear-gradient(160deg, #fdf2f8, #efe8ff);
   transform: rotateY(180deg);
+}
+
+.project-flip .flip-back {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  overflow: auto;
+}
+
+.project-flip .flip-back .tag-row {
+  margin-top: 8px;
 }
 
 .flip-back ul {
